@@ -1,0 +1,37 @@
+
+
+.AddFolder__form{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--custom-font);
+}
+
+.AddFolder__form * {
+    margin: 10px;
+    width: 20vh;
+    text-align: center ;
+}
+
+.AddFolder__label{
+    color:#bdbdbd;
+}
+
+.AddFolder__name{
+    height: 28px;
+}
+
+.Folder__add {
+    --button-height: 32px;
+    background-color: #041a3a;
+    border: 0;
+    color: #bdbcbc;
+    float: right;
+    font-size: 12px;
+    height: var(--button-height);
+  }
+  .Folder__add:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
